@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+/* Main Container Styling */
+        .testimonial-container {
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            border-radius: 8px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Individual Testimonial Box Styling */
+        .testimonial-box {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Last testimonial box doesn't need bottom margin */
+        .testimonial-box:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Testimonial Text Styling */
+        .testimonial-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555555;
+            margin: 0 0 15px 0;
+        }
+
+        /* Author Styling */
+        .testimonial-author {
+            text-align: right;
+            font-style: italic;
+            color: #777777;
+            margin: 0;
+            display: block;
+        }
